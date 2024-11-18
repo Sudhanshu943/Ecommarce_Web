@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import { useCart } from "../context/CartContext";
+// import { useCart } from "../context/CartContext";
 
 const products = [
   {
@@ -19,7 +19,7 @@ const products = [
 ];
 
 const Home = () => {
-  const { addToCart } = useCart(); // Add cart context to manage cart actions
+  // const { addToCart } = useCart(); // Add cart context to manage cart actions
 
   return (
     <main className="container mx-auto mt-6">
